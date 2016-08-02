@@ -1,0 +1,344 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorAccent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.diegoorozco.bocolotes.PedidoFragment"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver al toma pedidos"
+        android:textSize="20dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/bTomador"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Pedido"
+        android:textColor="@color/texto"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bocolote"
+            android:textSize="28dp"
+            android:textColor="@color/texto"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cantidad"
+            android:textSize="24dp"
+            android:textColor="@color/texto"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio"
+            android:textSize="28dp"
+            android:textColor="@color/texto"
+            android:layout_marginRight="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Crepe1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crepe1"
+            android:textSize="20dp"
+            android:layout_marginRight="107dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20dp"
+            android:layout_marginRight="67dp"
+            android:id="@+id/CantCrepe1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5500"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/ValorCrepe1"/>
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/delete"
+            android:id="@+id/deleteCre1"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Crepe2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crepe2"
+            android:textSize="20dp"
+            android:layout_marginRight="107dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20dp"
+            android:layout_marginRight="67dp"
+            android:id="@+id/CantCrepe2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6000"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/ValorCrepe2"/>
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/delete"
+            android:id="@+id/deleteCre2"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Crepe3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crepe3"
+            android:textSize="20dp"
+            android:layout_marginRight="107dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20dp"
+            android:layout_marginRight="67dp"
+            android:id="@+id/CantCrepe3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6500"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/ValorCrepe3"/>
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/delete"
+            android:id="@+id/deleteCre3"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Crepe4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crepe4"
+            android:textSize="20dp"
+            android:layout_marginRight="107dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20dp"
+            android:layout_marginRight="67dp"
+            android:id="@+id/CantCrepe4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6900"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/ValorCrepe4"/>
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/delete"
+            android:id="@+id/deleteCre4"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textSize="35dp"
+            android:textColor="@color/texto"
+            android:layout_marginRight="148dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="35dp"
+            android:textColor="@color/texto"
+            android:layout_marginRight="20dp"
+            android:id="@+id/Total"/>
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Pago"
+        android:textColor="@color/texto"
+        android:textSize="45dp"
+        android:gravity="center"
+        android:layout_marginBottom="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:background="@drawable/boton_redondo"
+            android:text="Paga con 10.000"
+            android:textColor="@color/texto"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/BP10"/>
+        <Button
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:background="@drawable/boton_redondo"
+            android:text="Paga con 15.000"
+            android:textColor="@color/texto"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/BP15"/>
+        <Button
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:background="@drawable/boton_redondo"
+            android:text="Paga con 20.000"
+            android:textColor="@color/texto"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/BP20"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:background="@drawable/boton_redondo"
+            android:text="Paga con 50.000"
+            android:textColor="@color/texto"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/BP50"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/texto"
+                android:text="Otro Valor"
+                android:textSize="24dp"
+                android:gravity="center"/>
+
+            <EditText
+                android:layout_width="115dp"
+                android:layout_height="45dp"
+                android:inputType="number"
+                android:background="@color/white"
+                android:id="@+id/EPOther"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:background="@drawable/boton_redondo"
+            android:text="Realizar Pago"
+            android:textColor="@color/texto"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/BPOther"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Pagado Con: 0"
+        android:textColor="@color/texto"
+        android:textSize="35dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tPago"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Cambio: 0"
+        android:textColor="@color/texto"
+        android:textSize="35dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tCambio"/>
+
+</LinearLayout>
+</ScrollView>

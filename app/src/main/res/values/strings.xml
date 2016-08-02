@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bocolotes :)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Pedido">Pedido Registrado</string>
+    <string name="Entrada1">Crepe1...5.500</string>
+    <string name="Entrada2">Crepe2... 6.000</string>
+    <string name="Entrada3">Crepe3... 6.500</string>
+    <string name="Entrada4">Crepe4... 6.900</string>
+
+</resources>
